@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bharath.collegeclubs" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" >
+        </activity>
+        <activity android:name=".Register" >
+        </activity>
+        <activity android:name=".AdminHome" >
+        </activity>
+        <activity android:name=".FacHome" >
+        </activity>
+        <activity android:name=".StuHome" >
+        </activity>
+        <activity android:name=".AdminView" >
+        </activity>
+        <activity android:name=".AdminUpload" >
+        </activity>
+        <activity android:name=".AdminEvents" >
+        </activity>
+        <activity android:name=".AdminStu" >
+        </activity>
+        <activity android:name=".Reg1" >
+        </activity>
+        <activity android:name=".StuRegister" >
+        </activity>
+        <activity android:name=".StuEvents" >
+        </activity>
+        <activity android:name=".StuVote" >
+        </activity>
+        <activity android:name=".StuEventDetails" >
+        </activity>
+        <activity android:name=".FacSelStu" >
+        </activity>
+        <activity android:name=".FacSelStu1" >
+        </activity>
+        <activity android:name=".VoteCount" >
+        </activity>
+        <activity android:name=".StuFeedback" >
+        </activity>
+        <activity android:name=".AdminFeedback" >
+        </activity>
+    </application>
+
+</manifest>
